@@ -32,6 +32,13 @@
 
     .results {
       row-gap: 20px;
+
+      .student-info {
+        display: flex;
+        column-gap: 12px;
+        align-items: center;
+      }
+
       .result {
         & li {
           list-style: disc;

@@ -75,6 +75,8 @@
   align-items: center;
   justify-content: flex-end;
   column-gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 #footer .copyright {

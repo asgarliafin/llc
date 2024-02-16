@@ -1,0 +1,88 @@
+#reviews {
+  .review-box {
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.05);
+    background: rgb(250, 250, 250);
+    padding: 40px 60px;
+
+    .review-wr {
+      display: flex;
+      column-gap: 100px;
+
+      .rating-info {
+        .rating {
+          font-size: 64px;
+          font-weight: 500;
+          line-height: 78px;
+        }
+
+        .rating-feedback {
+          margin-top: 22px;
+        }
+      }
+
+      .rating-stars {
+        
+        .rating-stars-list {
+          
+            .rating-star {
+            column-gap: 12px;
+
+            .rating-star-linear {
+              border-radius: 100px;
+              background: rgb(217, 217, 217);
+              width: 100%;
+              height: 8px;
+
+              &.second{
+                width: 21% !important;
+              }
+              &.third{
+                width: 16% !important;
+              }
+              &.fourth{
+                width: 10% !important;
+              }
+              &.fifth{
+                width: 3% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .review-grid {
+    row-gap: 20px;
+    margin-top: 60px;
+
+    .review-card {
+      border-radius: 12px;
+      background: rgb(250, 250, 250);
+      padding: 20px;
+
+      .review-card-title {
+        font-weight: 600;
+      }
+
+      .review-card-info {
+        margin-block: 20px 24px;
+        display: flex;
+        align-items: center;
+        column-gap: 12px;
+
+        .review-card-date {
+          color: rgba(0, 0, 0, 0.6);
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+      .review-card-text {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+  }
+}
