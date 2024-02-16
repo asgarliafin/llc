@@ -4,26 +4,5 @@
 @import "./hero.css";
 @import "./classification.css";
 @import "./exams.css";
+@import "./information.css";
 @import "./footer.css";
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Montserrat" !important;
-  letter-spacing: 0 !important;
-}
-
-a,
-li {
-  text-decoration: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
