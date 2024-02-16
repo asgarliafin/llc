@@ -1,0 +1,110 @@
+#exams {
+}
+
+#exams .filter {
+  padding: 28px;
+  border-radius: 12px;
+  background: rgb(250, 250, 250);
+}
+
+#exams .filter .filter-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+#exams .filter .filter-btn {
+  border-radius: 12px;
+  background: rgb(245, 245, 245) !important;
+  outline: none;
+  border: none;
+  color: #000000 !important;
+  padding: 10px 16px;
+  transition: all 0.3s ease;
+}
+
+#exams .filter .filter-btn:hover, #exams .filter .filter-btn.active {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+
+
+#exams .filter .filter-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#exams .filter .filter-subtitle {
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 28px;
+}
+
+#exams .filter .filter-body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+#exams .exams-list .exam-card {
+  border-radius: 12px;
+  background: rgb(250, 250, 250);
+  padding: 28px;
+}
+
+#exams .exams-list .exam-card .exam-card-info {
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+
+#exams .exams-list .exam-card .exam-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+
+#exams .exams-list .exam-card .exam-card-body {
+}
+
+#exams .exams-list .exam-card .exam-card-body .exam-card-subtitle {
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+#exams .exams-list .exam-card .exam-card-body .exam-card-list {
+  margin-top: 12px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#exams .exams-list .exam-card .exam-card-heading {
+}
+
+#exams .exams-list .exam-card .exam-card-body .exam-card-list .exam-card-item {
+  font-size: 14px;
+  line-height: 28px;
+  list-style: square;
+}
+
+.exam-card-tags {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgb(217, 217, 217);
+}
+
+.exam-card-tag {
+  border-radius: 12px;
+  padding: 6.5px 16px;
+  background: rgb(217, 217, 217);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.exam-card-btn {
+  width: 100%;
+  margin-top: 28px;
+}

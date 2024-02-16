@@ -1,0 +1,48 @@
+.section {
+  margin-top: 120px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.section-heading .section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+}
+
+.section-heading .section-subtitle {
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.btn {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+  padding-block: 10px !important;
+  font-weight: 500 !important;
+}
+
+.btn-outline {
+  border: 1px solid #000000 !important;
+  background: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 12px !important;
+  padding-block: 9px !important;
+}
+
+.btn-more {
+  padding-inline: 20px !important;
+  padding-block: 8px !important;
+  box-sizing: border-box !important;
+  background: #ffffff !important;
+  border: 1px solid rgb(217, 217, 217) !important;
+  margin-top: 60px !important;
+  color: #000000 !important;
+  margin-inline: auto !important;
+}

@@ -1,0 +1,26 @@
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("../images/hero.jpeg");
+  /* background:url("../images/hero.jpeg"); */
+
+  padding-block: 180px 275px;
+  background-size: cover;
+  color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero .hero-title {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 54px !important;
+  letter-spacing: 0em !important;
+  margin-bottom: 20px !important;
+}
+
+#hero .hero-text {
+  font-weight: 500 !important;
+  line-height: 24px !important;
+  letter-spacing: 0em !important;
+  margin-bottom: 0 !important;
+}
