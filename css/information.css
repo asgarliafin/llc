@@ -52,6 +52,11 @@
   }
 }
 
+* {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
 }
 
@@ -128,8 +133,4 @@
       }
     }
   }
-}
-
-*{
-  overflow-x: hidden !important;
 }
