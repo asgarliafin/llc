@@ -10,3 +10,8 @@
   font-weight: 500;
   padding-inline: 14px;
 }
+
+.navbar-toggler{
+  height: max-content;
+  display: inline;
+}

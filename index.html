@@ -25,50 +25,66 @@
     <header id="header" class="header">
       <div class="container">
         <nav class="navbar py-3 navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="pages/about.html">Logo</a>
-            <div
-              class="collapse navbar-collapse mx-auto"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Haqqımızda</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Kitablar</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">İmtahanlar</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Bizimlə əlaqə</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link active dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    AZ
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">AZ</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">ENG</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex column-gap-3" role="search">
-                <button class="btn btn-outline" type="submit">Daxil ol</button>
-                <button class="btn" type="submit">Qeydiyyat</button>
-              </form>
+          <div class="d-flex justify-content-between  w-100">
+            <div class="w-100 d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-between">
+              <a class="navbar-brand" href="pages/about.html">Logo</a>
+              <div
+                class="collapse navbar-collapse mx-0 mx-lg-auto mt-3 mt-lg-0"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Haqqımızda</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Kitablar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">İmtahanlar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Bizimlə əlaqə</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link active dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      AZ
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">AZ</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">ENG</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex column-gap-3" role="search">
+                  <button class="btn btn-outline" type="submit">
+                    Daxil ol
+                  </button>
+                  <button class="btn" type="submit">Qeydiyyat</button>
+                </form>
+              </div>
             </div>
+            
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </nav>
       </div>
@@ -79,7 +95,9 @@
     <div id="home-hero" class="hero">
       <div class="container">
         <div class="row justify-content-start">
-          <div class="col-8">
+          <div
+            class="col-xl-8 ms-xl-0 h-lg-50 h-xl-auto col-lg-9 col-md-12 col-sm-12 col-11 mx-auto"
+          >
             <div class="hero-info">
               <h1 class="hero-title">İmtahanlar</h1>
               <p class="hero-text">
@@ -98,36 +116,52 @@
     <!-- START OF CLASSIFICATION SECTION CODE -->
     <section id="classification" class="section classification">
       <div class="row justify-content-center">
-        <div class="col-7">
+        <div class="col-xl-7 col-lg-8 col-md-10 col-sm-10 col-11">
           <div class="section-heading">
             <div class="section-subtitle">İmtahan</div>
             <h2 class="section-title classification-title">Kateqoriya seç</h2>
           </div>
           <div class="row row-gap-3">
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">Buraxılış</div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">Blok</div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">Təkmilləşmə</div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">
                 İbtidai sinif
               </div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">Liseylərə</div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">Magistratura</div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">Olimpiadalar</div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-11 mx-auto mx-md-0"
+            >
               <div class="classification-box box text-center">
                 Fənn imtahanı
               </div>
@@ -145,8 +179,8 @@
           <div class="section-subtitle">Ən çox işlənənlər</div>
           <h2 class="section-title classification-title">İmtahanlar</h2>
         </div>
-        <div class="row justify-content-between">
-          <div class="col-4">
+        <div class="row justify-content-between row-gap-5">
+          <div class="col-lg-4 col-md-6 col-sm-10 col-11 mx-auto">
             <div class="filter">
               <div class="filter-title">Filter</div>
               <div class="filter-body">
@@ -174,9 +208,9 @@
               </div>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col-8 col-lg-8 col-md-6 col-sm-10 col-12">
             <div class="row exams-list row-gap-4">
-              <div class="col-6">
+              <div class="col-11 mx-auto col-sm-10 col-md-12 col-lg-6">
                 <div class="exam-card">
                   <div class="exam-card-heading">
                     <div class="exam-card-title">3-cü sinif imtahanı</div>
@@ -224,56 +258,7 @@
                   </button>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="exam-card">
-                  <div class="exam-card-heading">
-                    <div class="exam-card-title">3-cü sinif imtahanı</div>
-                    <div
-                      class="d-flex justify-content-between align-items-center exam-card-info"
-                    >
-                      <div class="time">
-                        <span>
-                          <img
-                            src="../images/icons/time.jpeg"
-                            alt="time icon"
-                          />
-                        </span>
-                        45 dəqiqə
-                      </div>
-                      <div
-                        class="exam-card-rating d-flex align-items-center column-gap-3"
-                      >
-                        <div class="stars">
-                          <span
-                            ><img
-                              src="../images/icons/stars.png"
-                              alt="stars icon"
-                          /></span>
-                        </div>
-                        <div class="exam-card-feedback">2rəy</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="exam-card-body">
-                    <div class="exam-card-subtitle">Suallar</div>
-                    <ul class="exam-card-list">
-                      <li class="exam-card-item">10 sual - Azərbaycan dili</li>
-                      <li class="exam-card-item">10 sual - Riyaziyyat</li>
-                    </ul>
-                    <div
-                      class="exam-card-tags column-gap-2 d-flex align-items-center"
-                    >
-                      <span class="exam-card-tag">İbtidai sinif</span>
-                      <span class="exam-card-tag">3-cü sinif</span>
-                    </div>
-                  </div>
-                  <button class="btn btn-outline exam-card-btn">
-                    1 AZN- indi al
-                  </button>
-                </div>
-              </div>
-
-              <div class="col-6">
+              <div class="col-11 mx-auto col-sm-10 col-md-12 col-lg-6">
                 <div class="exam-card">
                   <div class="exam-card-heading">
                     <div class="exam-card-title">3-cü sinif imtahanı</div>
@@ -322,7 +307,7 @@
                 </div>
               </div>
 
-              <div class="col-6">
+              <div class="col-11 mx-auto col-sm-10 col-md-12 col-lg-6">
                 <div class="exam-card">
                   <div class="exam-card-heading">
                     <div class="exam-card-title">3-cü sinif imtahanı</div>
@@ -371,7 +356,7 @@
                 </div>
               </div>
 
-              <div class="col-6">
+              <div class="col-11 mx-auto col-sm-10 col-md-12 col-lg-6">
                 <div class="exam-card">
                   <div class="exam-card-heading">
                     <div class="exam-card-title">3-cü sinif imtahanı</div>
@@ -420,7 +405,56 @@
                 </div>
               </div>
 
-              <div class="col-6">
+              <div class="col-11 mx-auto col-sm-10 col-md-12 col-lg-6">
+                <div class="exam-card">
+                  <div class="exam-card-heading">
+                    <div class="exam-card-title">3-cü sinif imtahanı</div>
+                    <div
+                      class="d-flex justify-content-between align-items-center exam-card-info"
+                    >
+                      <div class="time">
+                        <span>
+                          <img
+                            src="../images/icons/time.jpeg"
+                            alt="time icon"
+                          />
+                        </span>
+                        45 dəqiqə
+                      </div>
+                      <div
+                        class="exam-card-rating d-flex align-items-center column-gap-3"
+                      >
+                        <div class="stars">
+                          <span
+                            ><img
+                              src="../images/icons/stars.png"
+                              alt="stars icon"
+                          /></span>
+                        </div>
+                        <div class="exam-card-feedback">2rəy</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="exam-card-body">
+                    <div class="exam-card-subtitle">Suallar</div>
+                    <ul class="exam-card-list">
+                      <li class="exam-card-item">10 sual - Azərbaycan dili</li>
+                      <li class="exam-card-item">10 sual - Riyaziyyat</li>
+                    </ul>
+                    <div
+                      class="exam-card-tags column-gap-2 d-flex align-items-center"
+                    >
+                      <span class="exam-card-tag">İbtidai sinif</span>
+                      <span class="exam-card-tag">3-cü sinif</span>
+                    </div>
+                  </div>
+                  <button class="btn btn-outline exam-card-btn">
+                    1 AZN- indi al
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-11 mx-auto col-sm-10 col-md-12 col-lg-6">
                 <div class="exam-card">
                   <div class="exam-card-heading">
                     <div class="exam-card-title">3-cü sinif imtahanı</div>
@@ -479,13 +513,13 @@
     <!-- END OF EXAMS SECTION CODE -->
 
     <!-- START OF FOOTER CODE -->
-    <footer id="footer">
+    <footer id="footer" class="px-3 sm-px-0">
       <div class="container">
         <nav class="navbar navbar-expand-lg">
           <div class="d-flex w-100 justify-content-between align-items-center">
             <a class="navbar-brand" href="#">Logo</a>
             <div>
-              <ul class="navbar-nav">
+              <ul class="navbar-nav d-none d-lg-flex">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Haqqımızda</a
@@ -542,7 +576,9 @@
           </ul>
         </div>
         <div class="footer-social-media">
-          <ul class="socials-media-list">
+          <ul
+            class="socials-media-list ps-0 justify-content-start justify-content-md-end"
+          >
             <li class="social-media-item">
               <a href="#" class="social-media-link footer-icon icon-lg">
                 <img src="images/icons/instagram.png" alt="instagram icon" />

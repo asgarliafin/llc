@@ -11,3 +11,42 @@
   letter-spacing: 0;
   cursor: pointer;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .classification {
+    margin-top: 100px;
+  }
+
+  .classification-box {
+    padding-block: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .classification {
+    margin-top: 100px;
+  }
+
+  .classification-box {
+    padding-block: 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .classification {
+    margin-top: 80px;
+  }
+
+  .classification-box {
+    padding-block: 25px;
+  }
+}
+@media (max-width: 575.98px) {
+  .classification {
+    margin-top: 60px;
+  }
+
+  .classification-box {
+    padding-block: 20px;
+  }
+}
